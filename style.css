@@ -1,0 +1,111 @@
+.grid-boxes {
+    display: grid;
+    grid-template-columns:50% 25% 25%;
+    grid-template-rows: 30% 30% 30%;
+    width: 100%;
+    height: 100vh;
+}
+.box-first {
+    background-color: white;
+    grid-column-start: 1;
+    grid-row-start:1;
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    margin-top:37%;
+}
+.p-info-first {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightslategray;
+    font-size: 12px;
+    margin-left: 3%;
+}
+.p-center {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(92, 101, 109);
+    font-size: 13px;
+    margin-top:3%;
+}
+.list-link {
+    display: flex;
+    flex-direction: column;
+    font-family:monospace;
+    font-size: 16px;
+    margin-left:3%;
+    margin-top:33%;
+}
+.box-second {
+    background-color: rgb(80, 80, 165);
+    grid-column-start: 2;
+    grid-row-start:1;
+}
+.avatar-first {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left:3%;
+}
+.p-info-second, .p-info-third {
+    text-align: center;
+    font-family:inherit;
+    color:whitesmoke;
+    font-size: 13px;
+    margin-top:3%;;
+}
+.name {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+    color:white;
+    margin-left:3%;
+}
+.box-third {
+    background-color: rgb(65, 150, 65);
+    grid-column-start: 3;
+    grid-row-start:1;
+}
+.box-fourth {
+    background-color: white;
+    grid-column-start: 1;
+    grid-row-start:2;
+}
+.box-fifth {
+    background-color: rgb(80, 80, 165);
+    grid-column-start: 2;
+    grid-row-start:2;
+}
+.box-sixth {
+    background-color: rgb(255, 196, 0);
+    grid-column-start: 3;
+    grid-row-start:2;
+}
+.box-seventh {
+    background-color: white;
+    grid-column-start: 1;
+    grid-row-start:3;
+}
+.box-eightth {
+    background-color: tomato;
+    grid-column-start: 2;
+    grid-row-start:3;
+}
+.box-ninth {
+    background-color: tomato;
+    grid-column-start: 3;
+    grid-row-start:3;
+}
+.avatars-invisible {
+    opacity: 0;
+}
+.p-info-fourth-1 {
+    font-family:inherit;
+    color:whitesmoke;
+    font-size: 13px;
+    margin-left:7%;
+}
+.p-info-fourth-2 {
+    font-family:inherit;
+    color:whitesmoke;
+    font-size: 13px;
+}
